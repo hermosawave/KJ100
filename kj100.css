@@ -1,0 +1,125 @@
+/*
+<link rel="stylesheet" href="https://use.typekit.net/tbn2zsb.css">
+
+FreightText Pro Book 
+font-family: freight-text-pro, serif; 
+font-weight: 400; 
+font-style: normal; 
+FreightText Pro Book Italic 
+font-family: freight-text-pro, serif; 
+font-weight: 400; 
+font-style: italic; 
+FreightText Pro Bold 
+font-family: freight-text-pro, serif; 
+font-weight: 700; 
+font-style: normal; 
+FreightText Pro Bold Italic 
+font-family: freight-text-pro, serif; 
+font-weight: 700; 
+font-style: italic; 
+
+*/
+
+body {
+    font-family: freight-text-pro, serif; 
+    font-weight: 400; 
+    font-style: normal;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 32px;
+}
+
+h1:after {
+   
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+a {
+    color: rgb(201,43,46);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.menubar {
+    display: flex;
+ }
+
+nav {
+     margin-top: 5px;
+  
+}
+
+nav li {
+    font-family: freight-micro-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline;
+      text-transform: uppercase;
+    font-size: 12px;
+    margin: 1px 4px;
+
+}
+
+nav li:hover {
+}
+
+nav a {
+    color: black;
+     padding: 10px 0;
+    margin: 0 10px;
+  
+}
+
+nav a:hover, a:active {
+    text-decoration: none;
+    color: rgb(201,43,46);
+    border-bottom: 1px solid rgb(201,43,46);
+}
+
+img.logo {   
+    width: 170px;
+    height: auto;
+    margin: 12px;
+}
+
+.center {
+    text-align: center;
+}
+
+.mainbody {
+    display: flex;
+}
+
+.mainbody_images {
+    margin: 20px;
+    width: 50%;
+}
+
+.mainbody_text {
+    margin: 20px;
+    width: 50%;
+  
+}
