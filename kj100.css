@@ -100,8 +100,9 @@ nav a:hover, a:active {
 }
 
 img.logo {   
-    width: 170px;
-    
+    width: 170px; 
+    height: 52px;
+    /* why does this break in safari, without the height??? */
     margin: 12px;
 }
 
