@@ -112,6 +112,7 @@ img.logo {
 
 .mainbody {
     display: flex;
+    padding: 0 20px;
 }
 
 .mainbody_images {
@@ -120,7 +121,19 @@ img.logo {
 }
 
 .mainbody_text {
-    margin: 20px;
+   
     width: 50%;
   
+}
+
+.sidebar {
+   width: 25%; 
+    
+}
+
+.sidebar_item {
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 8px;
 }
