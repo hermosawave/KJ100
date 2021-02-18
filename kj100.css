@@ -99,7 +99,7 @@ nav a:hover, a:active {
     border-bottom: 1px solid rgb(201,43,46);
 }
 
-img.logo {   
+.logo {   
     width: 170px; 
     height: 52px;
     /* why does this break in safari, without the height??? */
@@ -118,6 +118,23 @@ img.logo {
 .mainbody_images {
     margin: 20px;
     width: 50%;
+}
+
+.featured_image /* main image */ {
+    
+}
+
+.thumbnails /* group of thumbnails */ {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tn /* individual tn (img.tn) */ {
+    width: 24%;
+    max-width:  128px;
+    margin: 5px 1px;
+    
 }
 
 .mainbody_text {
