@@ -200,6 +200,10 @@ nav a:hover, a:active {
 /* iPhone horizontal and vertical? */
 @media only screen and (max-width : 812px)  {
 
+    .mainbody {
+        padding: 0 10px;
+    }
+
     .menubar {
         display: none;
     }
