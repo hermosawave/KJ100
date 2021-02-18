@@ -230,6 +230,7 @@ nav a:hover, a:active {
     }
     .mainbody_images { 
         width: 40%;
+        margin-right: 0;
     }
 
     .sidebar {
