@@ -99,6 +99,11 @@ nav a:hover, a:active {
     border-bottom: 1px solid rgb(201,43,46);
 }
 
+
+.small_logo /* only mobile */ {
+    display: none;
+}
+
 .logo {   
     width: 170px; 
     height: 52px;
@@ -127,15 +132,13 @@ nav a:hover, a:active {
 .thumbnails /* group of thumbnails */ {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:space-between;
 }
 
 .tn /* individual tn (img.tn) */ {
-    width: 110px;
-    height: 143px;
-    
-    margin: 5px 3px;
-    
+    width: 115px;
+    height: 150px;    
+    margin: 5px 3px;    
 }
 
 .mainbody_text {
@@ -164,6 +167,12 @@ nav a:hover, a:active {
 
 @media only screen and (max-width: 1032px) {
 
+    h1 {
+        font-size: 22pt;
+        line-height: 24pt;
+    }
+    
+    
     h2 {
         font-size: 18pt;
         line-height: 20pt;
@@ -173,8 +182,17 @@ nav a:hover, a:active {
         font-size: 12pt;
         line-height: 15pt;
     }
+    
+    .tn /* individual tn (img.tn) */ {
+        width: 100px;
+        height: 130px;    
+        margin: 5px 3px;    
+    }
 
-     .mainbody_images {
+    .mainbody_text {
+        width: 60%;  
+    }
+    .mainbody_images {
         width: 40%;
     }
 }
@@ -182,20 +200,30 @@ nav a:hover, a:active {
 /* iPhone horizontal and vertical? */
 @media only screen and (max-width : 812px)  {
 
+    .menubar {
+        display: none;
+    }
  
 
-}
-
-/* iPhone vertical only */
-@media only screen and (max-width : 812px) and (orientation: portrait) { 
-    
-    .logo {   
+    .small_logo {   
         width: 120px; 
         height: 38px;
         /* why does this break in safari, without the height??? */
         margin: 12px;
         display: block;
     }
+    
+    .tn /* individual tn (img.tn) */ {
+        width: 76px;
+        height: 100px;    
+        margin: 5px 3px;    
+    }
+}
+
+/* iPhone vertical only */
+@media only screen and (max-width : 812px) and (orientation: portrait) { 
+    
+
  
     .mainbody_text {
         width: 60%;  
