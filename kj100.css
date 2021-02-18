@@ -131,10 +131,10 @@ nav a:hover, a:active {
 }
 
 .tn /* individual tn (img.tn) */ {
-    width: 123px;
+    width: 120px;
     height: 160px;
     
-    margin: 5px 5px;
+    margin: 5px 4px;
     
 }
 
