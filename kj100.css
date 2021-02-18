@@ -155,3 +155,49 @@ nav a:hover, a:active {
     margin: 20px 0;
     border-radius: 8px;
 }
+
+
+/* ///////////// RESPONSIVE OVERRIDES  ///////////// */
+/* default wide screen */
+
+/* smaller monitor and ipad */
+
+@media only screen and (max-width: 1032px) {
+
+    h2 {
+        font-size: 18pt;
+        line-height: 20pt;
+    }
+
+    p {
+        font-size: 12pt;
+        line-height: 15pt;
+    }
+
+     .mainbody_images {
+        width: 40%;
+    }
+}
+
+/* iPhone horizontal and vertical? */
+@media only screen and (max-width : 812px)  {
+
+ 
+
+}
+
+/* iPhone vertical only */
+@media only screen and (max-width : 812px) and (orientation: portrait) { 
+ 
+    .mainbody_text {
+        width: 60%;  
+    }
+    .mainbody_images { 
+        width: 40%;
+    }
+
+    .sidebar {
+        display:none;
+    }
+    
+}
