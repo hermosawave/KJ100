@@ -188,6 +188,14 @@ nav a:hover, a:active {
 
 /* iPhone vertical only */
 @media only screen and (max-width : 812px) and (orientation: portrait) { 
+    
+    .logo {   
+        width: 120px; 
+        height: 38px;
+        /* why does this break in safari, without the height??? */
+        margin: 12px;
+        display: block;
+    }
  
     .mainbody_text {
         width: 60%;  
