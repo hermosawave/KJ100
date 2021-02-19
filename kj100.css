@@ -163,6 +163,23 @@ nav a:hover, a:active {
     display: none;
 }
 
+
+footer {
+        padding: 0 20px;
+        border-top: 1px solid rgb(201,43,46);
+        
+}
+
+footer p {
+        font-size: 9pt;
+        line-height: 10pt;
+        text-align: center;
+}
+
+.heart_red {
+    color: rgb(201,43,46);
+}
+
 /* ///////////// RESPONSIVE OVERRIDES  ///////////// */
 /* default wide screen */
 
@@ -170,7 +187,7 @@ nav a:hover, a:active {
 
 @media only screen and (max-width: 1032px) {
     
-    .mainbody {
+    .mainbody, footer {
         padding: 0 10px;
     }
 
