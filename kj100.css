@@ -159,6 +159,9 @@ nav a:hover, a:active {
     border-radius: 8px;
 }
 
+.sidebar_mobile /* only appears on mobile */ {
+    display: none;
+}
 
 /* ///////////// RESPONSIVE OVERRIDES  ///////////// */
 /* default wide screen */
@@ -241,6 +244,10 @@ nav a:hover, a:active {
 
     .sidebar {
         display:none;
+    }
+    
+    .sidebar_mobile {
+        display: block;
     }
     
 }
