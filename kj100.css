@@ -164,7 +164,7 @@ nav a:hover, a:active {
 }
 
 
-footer {
+.footer {
         padding: 0 20px;
         border-top: 1px solid rgb(201,43,46);
         font-size: 9pt;
@@ -172,7 +172,7 @@ footer {
         text-align: center;
 }
 
-footer p {
+.footer p {
         font-size: 9pt;
         line-height: 10pt;
         text-align: center;
@@ -193,7 +193,7 @@ footer p {
         padding: 0 10px;
     }
     
-    footer {
+    .footer {
         padding: 0 10px;
  
     }
@@ -214,6 +214,11 @@ footer p {
         line-height: 15pt;
     }
     
+    .footer p {
+        font-size: 9pt;
+        line-height: 10pt;
+        text-align: center;
+}
 
 
     
