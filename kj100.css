@@ -207,6 +207,13 @@ footer p {
         line-height: 15pt;
     }
     
+    footer p {
+        font-size: 9pt;
+        line-height: 10pt;
+        text-align: center;
+}
+
+    
     .tn /* individual tn (img.tn) */ {
         width: 100px;
         height: 130px;    
